@@ -9,4 +9,58 @@ $lightGrayishBlue: hsl(207, 33%, 95%);
 #container {
     display: flex;
     flex-wrap: wrap;
+    margin-top: 5dvh;
+
+    .text {
+        flex: 1;
+        margin-top: 10dvh;
+        margin-left: 3dvh;
+
+        span {
+            color: $grayishBlue;
+        }
+
+        .title {
+            font-family: 'Barlow', serif;
+            font-size: 3.5rem;
+        }
+
+        .paragraph {
+            color: $darkGrayishBlue;
+            font-size: 1.3rem;
+            font-family: 'Barlow Condensed';
+        }
+
+        .btn {
+            display: flex;
+            gap: 3dvh;
+
+            .schedule-btn {
+                height: 7dvh;
+                width: 25dvh;
+                border-radius: 1dvh;
+                border: none;
+                background-color: $red;
+                font-family: 'Barlow', serif;
+                color: $lightGrayishBlue;
+                cursor: pointer;
+            }
+
+            .secondary-paragraph {
+                font-size: 1rem;
+                font-family: 'Barlow', serif;
+                color: $grayishBlue;
+            }
+        }
+    }
+
+    .photo {
+        flex: 1;
+
+        .main-photo {
+            max-width: 100%;
+            height: auto;
+            margin-top: 7dvh;
+        }
+    }
 }

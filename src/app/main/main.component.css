@@ -3,4 +3,49 @@
 #container {
   display: flex;
   flex-wrap: wrap;
+  margin-top: 5dvh;
+}
+#container .text {
+  flex: 1;
+  margin-top: 10dvh;
+  margin-left: 3dvh;
+}
+#container .text span {
+  color: hsl(231, 7%, 65%);
+}
+#container .text .title {
+  font-family: "Barlow", serif;
+  font-size: 3.5rem;
+}
+#container .text .paragraph {
+  color: hsl(230, 11%, 40%);
+  font-size: 1.3rem;
+  font-family: "Barlow Condensed";
+}
+#container .text .btn {
+  display: flex;
+  gap: 3dvh;
+}
+#container .text .btn .schedule-btn {
+  height: 7dvh;
+  width: 25dvh;
+  border-radius: 1dvh;
+  border: none;
+  background-color: hsl(0, 100%, 68%);
+  font-family: "Barlow", serif;
+  color: hsl(207, 33%, 95%);
+  cursor: pointer;
+}
+#container .text .btn .secondary-paragraph {
+  font-size: 1rem;
+  font-family: "Barlow", serif;
+  color: hsl(231, 7%, 65%);
+}
+#container .photo {
+  flex: 1;
+}
+#container .photo .main-photo {
+  max-width: 100%;
+  height: auto;
+  margin-top: 7dvh;
 }/*# sourceMappingURL=main.component.css.map */
