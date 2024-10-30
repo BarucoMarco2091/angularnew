@@ -6,5 +6,7 @@ $darkGrayishBlue: hsl(230, 11%, 40%);
 $grayishBlue: hsl(231, 7%, 65%);
 $lightGrayishBlue: hsl(207, 33%, 95%);
 
-@import "../src/app/header/header.component.scss";
-@import "../src/app/main/main.component.scss"
+#container {
+    display: flex;
+    flex-wrap: wrap;
+}
